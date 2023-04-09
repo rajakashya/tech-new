@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: 'Recursive', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #74bde7;
+    display: flex;
+    flex-direction: column; 
+     justify-content: space-between;
+
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    background-color: #ec4ed2;
+    padding: 4px 10px ;
+    cursor: pointer;
+    color: #142906;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: 600;
+    width: fit-content;
+}
+
+button:hover {
+    background-color: #e7eaec;
+    color:#312222 ;
+    border: 1px solid rgb(209, 7, 7);
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav .logo{
+    font-weight: 700px;
+    font-size: 300px;
+    background-color: #ee1616;
+
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 500;
+}
+
+nav ul li:hover {
+    text-decoration: underline;
+    font-weight: 900;
+}
+.searech-field{
+    display: flex;
+    background-color:black ;
+    gap: 35;
+}
+
+input {
+    padding: 4px 10px;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+}
+
+.hero-left-section h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.hero-left-section h1 span {
+    color: rgb(18, 155, 155);
+    font-weight: 900px;
+    font-size: 2.5;
+}
+
+.hero-left-section p {
+    font-size: 500 ;
+}
+
+
+.hero-left-section p span {
+    font-size: 700 ;
+    font-size: 25px;
+    height: auto;
+    width: 50px;
+    color:#e7eb23; ;
+}
+
+
+    .hero-right-section{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+        /*gap:30px;*/
+    
+    }
+
+.hero-right-section-btns{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.hero-right-section img {
+    height: 300px;
+    width: 300;
+    border-radius: 50px;
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    justify-content: space-around;
+}
+
+footer p{
+    font-weight: 600;
+    background-color: rgb(175, 255, 71);
+}
+footer ul {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+footer ul  li a i:hover {
+
+}
